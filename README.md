@@ -4,7 +4,6 @@
 
 ##  Project Overview
 This project presents an Arduino-based autonomous robot developed during a hackathon. The robot is capable of tracking a predefined path and navigating through environments with obstacles by combining infrared-based line detection and distance sensing.
-
 The solution combines mechanical design, embedded firmware development, and system simulation under tight time constraints (24 hours challenge).
 
 ---
@@ -24,7 +23,6 @@ The solution combines mechanical design, embedded firmware development, and syst
 - **Programming:** Embedded C / Arduino
 - **Hardware:** Hardware: Arduino board, IR sensors, ultrasonic sensor, DC motors with motor driver, LED, chassis, power supply, jumper wires, breadboard.
 
-Main Control Logic:
 ---
 
 ## My Role
@@ -35,13 +33,10 @@ Main Control Logic:
 ---
 
 ## System Operation
-
 ### Initialization & Calibration
 At startup, the robot calibrates its IR sensors to determine appropriate threshold values. A status LED provides visual feedback during this phase.
-
 ### Autonomous Navigation
 Motor speeds are dynamically adjusted based on sensor input to ensure smooth line tracking and accurate turns.
-
 ### Decision Making
 Intersections and obstacles are handled in real time, enabling the robot to continue its path without manual intervention.
 
